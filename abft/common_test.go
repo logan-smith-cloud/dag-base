@@ -1,13 +1,13 @@
 package abft
 
 import (
-	"github.com/galaxy-digital/lachesis-base/inter/idx"
-	"github.com/galaxy-digital/lachesis-base/inter/pos"
-	"github.com/galaxy-digital/lachesis-base/kvdb"
-	"github.com/galaxy-digital/lachesis-base/kvdb/memorydb"
-	"github.com/galaxy-digital/lachesis-base/lachesis"
-	"github.com/galaxy-digital/lachesis-base/utils/adapters"
-	"github.com/galaxy-digital/lachesis-base/vecfc"
+	"github.com/logan-smith-cloud/dag-base/inter/idx"
+	"github.com/logan-smith-cloud/dag-base/inter/pos"
+	"github.com/logan-smith-cloud/dag-base/kvdb"
+	"github.com/logan-smith-cloud/dag-base/kvdb/memorydb"
+	"github.com/logan-smith-cloud/dag-base/lachesis"
+	"github.com/logan-smith-cloud/dag-base/utils/adapters"
+	"github.com/logan-smith-cloud/dag-base/vecfc"
 )
 
 type applyBlockFn func(block *lachesis.Block) *pos.Validators

@@ -9,10 +9,10 @@ import (
 
 	"github.com/ethereum/go-ethereum/common"
 
-	"github.com/galaxy-digital/lachesis-base/gossip/dagstream"
-	"github.com/galaxy-digital/lachesis-base/hash"
-	"github.com/galaxy-digital/lachesis-base/inter/idx"
-	"github.com/galaxy-digital/lachesis-base/utils/workers"
+	"github.com/logan-smith-cloud/dag-base/gossip/dagstream"
+	"github.com/logan-smith-cloud/dag-base/hash"
+	"github.com/logan-smith-cloud/dag-base/inter/idx"
+	"github.com/logan-smith-cloud/dag-base/utils/workers"
 )
 
 var (

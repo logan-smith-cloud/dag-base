@@ -1,8 +1,8 @@
 package flushable
 
 import (
-	"github.com/galaxy-digital/lachesis-base/kvdb"
-	"github.com/galaxy-digital/lachesis-base/kvdb/devnulldb"
+	"github.com/logan-smith-cloud/dag-base/kvdb"
+	"github.com/logan-smith-cloud/dag-base/kvdb/devnulldb"
 )
 
 // LazyFlushable is a Flushable with delayed DB producer

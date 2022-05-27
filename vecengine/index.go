@@ -4,13 +4,13 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/galaxy-digital/lachesis-base/hash"
-	"github.com/galaxy-digital/lachesis-base/inter/dag"
-	"github.com/galaxy-digital/lachesis-base/inter/idx"
-	"github.com/galaxy-digital/lachesis-base/inter/pos"
-	"github.com/galaxy-digital/lachesis-base/kvdb"
-	"github.com/galaxy-digital/lachesis-base/kvdb/flushable"
-	"github.com/galaxy-digital/lachesis-base/kvdb/table"
+	"github.com/logan-smith-cloud/dag-base/hash"
+	"github.com/logan-smith-cloud/dag-base/inter/dag"
+	"github.com/logan-smith-cloud/dag-base/inter/idx"
+	"github.com/logan-smith-cloud/dag-base/inter/pos"
+	"github.com/logan-smith-cloud/dag-base/kvdb"
+	"github.com/logan-smith-cloud/dag-base/kvdb/flushable"
+	"github.com/logan-smith-cloud/dag-base/kvdb/table"
 )
 
 type Callbacks struct {

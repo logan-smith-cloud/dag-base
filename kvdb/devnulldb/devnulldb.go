@@ -1,7 +1,7 @@
 package devnulldb
 
 import (
-	"github.com/galaxy-digital/lachesis-base/kvdb"
+	"github.com/logan-smith-cloud/dag-base/kvdb"
 )
 
 // Database is an always empty database.

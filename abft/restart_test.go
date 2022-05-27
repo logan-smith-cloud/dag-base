@@ -8,15 +8,15 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/galaxy-digital/lachesis-base/inter/dag"
-	"github.com/galaxy-digital/lachesis-base/inter/dag/tdag"
-	"github.com/galaxy-digital/lachesis-base/inter/idx"
-	"github.com/galaxy-digital/lachesis-base/inter/pos"
-	"github.com/galaxy-digital/lachesis-base/kvdb"
-	"github.com/galaxy-digital/lachesis-base/kvdb/memorydb"
-	"github.com/galaxy-digital/lachesis-base/lachesis"
-	"github.com/galaxy-digital/lachesis-base/utils/adapters"
-	"github.com/galaxy-digital/lachesis-base/vecfc"
+	"github.com/logan-smith-cloud/dag-base/inter/dag"
+	"github.com/logan-smith-cloud/dag-base/inter/dag/tdag"
+	"github.com/logan-smith-cloud/dag-base/inter/idx"
+	"github.com/logan-smith-cloud/dag-base/inter/pos"
+	"github.com/logan-smith-cloud/dag-base/kvdb"
+	"github.com/logan-smith-cloud/dag-base/kvdb/memorydb"
+	"github.com/logan-smith-cloud/dag-base/lachesis"
+	"github.com/logan-smith-cloud/dag-base/utils/adapters"
+	"github.com/logan-smith-cloud/dag-base/vecfc"
 )
 
 func TestRestart_1(t *testing.T) {

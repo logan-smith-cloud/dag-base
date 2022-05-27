@@ -5,8 +5,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/galaxy-digital/lachesis-base/kvdb"
-	"github.com/galaxy-digital/lachesis-base/kvdb/memorydb"
+	"github.com/logan-smith-cloud/dag-base/kvdb"
+	"github.com/logan-smith-cloud/dag-base/kvdb/memorydb"
 )
 
 func TestFallible(t *testing.T) {

@@ -1,7 +1,7 @@
 package idx
 
 import (
-	"github.com/galaxy-digital/lachesis-base/common/bigendian"
+	"github.com/logan-smith-cloud/dag-base/common/bigendian"
 )
 
 type (

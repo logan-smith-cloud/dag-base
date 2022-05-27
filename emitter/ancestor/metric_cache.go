@@ -1,8 +1,8 @@
 package ancestor
 
 import (
-	"github.com/galaxy-digital/lachesis-base/hash"
-	"github.com/galaxy-digital/lachesis-base/utils/wlru"
+	"github.com/logan-smith-cloud/dag-base/hash"
+	"github.com/logan-smith-cloud/dag-base/utils/wlru"
 )
 
 type Metric uint64

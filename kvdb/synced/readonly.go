@@ -3,7 +3,7 @@ package synced
 import (
 	"sync"
 
-	"github.com/galaxy-digital/lachesis-base/kvdb"
+	"github.com/logan-smith-cloud/dag-base/kvdb"
 )
 
 // readonlyStore wrapper around any kvdb.ReadonlyStore.

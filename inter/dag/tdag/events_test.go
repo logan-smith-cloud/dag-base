@@ -4,8 +4,8 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/galaxy-digital/lachesis-base/hash"
-	"github.com/galaxy-digital/lachesis-base/inter/dag"
+	"github.com/logan-smith-cloud/dag-base/hash"
+	"github.com/logan-smith-cloud/dag-base/inter/dag"
 )
 
 func TestEventsByParents(t *testing.T) {

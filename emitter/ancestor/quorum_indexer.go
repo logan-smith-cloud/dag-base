@@ -4,12 +4,12 @@ import (
 	"math"
 	"sort"
 
-	"github.com/galaxy-digital/lachesis-base/abft/dagidx"
-	"github.com/galaxy-digital/lachesis-base/hash"
-	"github.com/galaxy-digital/lachesis-base/inter/dag"
-	"github.com/galaxy-digital/lachesis-base/inter/idx"
-	"github.com/galaxy-digital/lachesis-base/inter/pos"
-	"github.com/galaxy-digital/lachesis-base/utils/wmedian"
+	"github.com/logan-smith-cloud/dag-base/abft/dagidx"
+	"github.com/logan-smith-cloud/dag-base/hash"
+	"github.com/logan-smith-cloud/dag-base/inter/dag"
+	"github.com/logan-smith-cloud/dag-base/inter/idx"
+	"github.com/logan-smith-cloud/dag-base/inter/pos"
+	"github.com/logan-smith-cloud/dag-base/utils/wmedian"
 )
 
 type DagIndex interface {

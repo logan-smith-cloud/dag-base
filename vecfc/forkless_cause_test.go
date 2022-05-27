@@ -9,12 +9,12 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/galaxy-digital/lachesis-base/hash"
-	"github.com/galaxy-digital/lachesis-base/inter/dag"
-	"github.com/galaxy-digital/lachesis-base/inter/dag/tdag"
-	"github.com/galaxy-digital/lachesis-base/inter/idx"
-	"github.com/galaxy-digital/lachesis-base/inter/pos"
-	"github.com/galaxy-digital/lachesis-base/kvdb/memorydb"
+	"github.com/logan-smith-cloud/dag-base/hash"
+	"github.com/logan-smith-cloud/dag-base/inter/dag"
+	"github.com/logan-smith-cloud/dag-base/inter/dag/tdag"
+	"github.com/logan-smith-cloud/dag-base/inter/idx"
+	"github.com/logan-smith-cloud/dag-base/inter/pos"
+	"github.com/logan-smith-cloud/dag-base/kvdb/memorydb"
 )
 
 func tCrit(err error) { panic(err) }

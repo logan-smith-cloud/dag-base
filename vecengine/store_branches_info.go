@@ -4,9 +4,9 @@ import (
 	"errors"
 
 	"github.com/ethereum/go-ethereum/rlp"
-	"github.com/galaxy-digital/lachesis-base/hash"
-	"github.com/galaxy-digital/lachesis-base/inter/idx"
-	"github.com/galaxy-digital/lachesis-base/kvdb"
+	"github.com/logan-smith-cloud/dag-base/hash"
+	"github.com/logan-smith-cloud/dag-base/inter/idx"
+	"github.com/logan-smith-cloud/dag-base/kvdb"
 )
 
 func (vi *Engine) setRlp(table kvdb.Store, key []byte, val interface{}) {

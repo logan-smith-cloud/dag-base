@@ -3,7 +3,7 @@ package lachesis
 import (
 	"github.com/ethereum/go-ethereum/rlp"
 
-	"github.com/galaxy-digital/lachesis-base/inter/idx"
+	"github.com/logan-smith-cloud/dag-base/inter/idx"
 )
 
 // Cheaters is a slice type for storing cheaters list.

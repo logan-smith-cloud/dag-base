@@ -9,7 +9,7 @@ import (
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/galaxy-digital/lachesis-base/inter/idx"
+	"github.com/logan-smith-cloud/dag-base/inter/idx"
 )
 
 func TestNewValidators(t *testing.T) {

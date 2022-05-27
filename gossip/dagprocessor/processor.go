@@ -5,14 +5,14 @@ import (
 	"runtime"
 	"sync"
 
-	"github.com/galaxy-digital/lachesis-base/eventcheck"
-	"github.com/galaxy-digital/lachesis-base/eventcheck/queuedcheck"
-	"github.com/galaxy-digital/lachesis-base/gossip/dagordering"
-	"github.com/galaxy-digital/lachesis-base/hash"
-	"github.com/galaxy-digital/lachesis-base/inter/dag"
-	"github.com/galaxy-digital/lachesis-base/inter/idx"
-	"github.com/galaxy-digital/lachesis-base/utils/datasemaphore"
-	"github.com/galaxy-digital/lachesis-base/utils/workers"
+	"github.com/logan-smith-cloud/dag-base/eventcheck"
+	"github.com/logan-smith-cloud/dag-base/eventcheck/queuedcheck"
+	"github.com/logan-smith-cloud/dag-base/gossip/dagordering"
+	"github.com/logan-smith-cloud/dag-base/hash"
+	"github.com/logan-smith-cloud/dag-base/inter/dag"
+	"github.com/logan-smith-cloud/dag-base/inter/idx"
+	"github.com/logan-smith-cloud/dag-base/utils/datasemaphore"
+	"github.com/logan-smith-cloud/dag-base/utils/workers"
 )
 
 var (

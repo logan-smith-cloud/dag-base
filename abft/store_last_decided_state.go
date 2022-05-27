@@ -1,7 +1,7 @@
 package abft
 
 import (
-	"github.com/galaxy-digital/lachesis-base/inter/idx"
+	"github.com/logan-smith-cloud/dag-base/inter/idx"
 )
 
 const dsKey = "d"

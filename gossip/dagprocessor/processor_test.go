@@ -8,13 +8,13 @@ import (
 	"testing"
 	"time"
 
-	"github.com/galaxy-digital/lachesis-base/eventcheck/queuedcheck"
-	"github.com/galaxy-digital/lachesis-base/hash"
-	"github.com/galaxy-digital/lachesis-base/inter/dag"
-	"github.com/galaxy-digital/lachesis-base/inter/dag/tdag"
-	"github.com/galaxy-digital/lachesis-base/inter/idx"
-	"github.com/galaxy-digital/lachesis-base/utils/cachescale"
-	"github.com/galaxy-digital/lachesis-base/utils/datasemaphore"
+	"github.com/logan-smith-cloud/dag-base/eventcheck/queuedcheck"
+	"github.com/logan-smith-cloud/dag-base/hash"
+	"github.com/logan-smith-cloud/dag-base/inter/dag"
+	"github.com/logan-smith-cloud/dag-base/inter/dag/tdag"
+	"github.com/logan-smith-cloud/dag-base/inter/idx"
+	"github.com/logan-smith-cloud/dag-base/utils/cachescale"
+	"github.com/logan-smith-cloud/dag-base/utils/datasemaphore"
 )
 
 func TestProcessor(t *testing.T) {

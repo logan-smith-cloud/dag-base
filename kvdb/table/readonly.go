@@ -1,7 +1,7 @@
 package table
 
 import (
-	"github.com/galaxy-digital/lachesis-base/kvdb"
+	"github.com/logan-smith-cloud/dag-base/kvdb"
 )
 
 // Readonly table wraper of the underling DB, so all the table's data is stored with a prefix in underling DB.

@@ -1,15 +1,15 @@
 package vecfc
 
 import (
-	"github.com/galaxy-digital/lachesis-base/hash"
-	"github.com/galaxy-digital/lachesis-base/inter/dag"
-	"github.com/galaxy-digital/lachesis-base/inter/idx"
-	"github.com/galaxy-digital/lachesis-base/inter/pos"
-	"github.com/galaxy-digital/lachesis-base/kvdb"
-	"github.com/galaxy-digital/lachesis-base/kvdb/table"
-	"github.com/galaxy-digital/lachesis-base/utils/cachescale"
-	"github.com/galaxy-digital/lachesis-base/utils/simplewlru"
-	"github.com/galaxy-digital/lachesis-base/vecengine"
+	"github.com/logan-smith-cloud/dag-base/hash"
+	"github.com/logan-smith-cloud/dag-base/inter/dag"
+	"github.com/logan-smith-cloud/dag-base/inter/idx"
+	"github.com/logan-smith-cloud/dag-base/inter/pos"
+	"github.com/logan-smith-cloud/dag-base/kvdb"
+	"github.com/logan-smith-cloud/dag-base/kvdb/table"
+	"github.com/logan-smith-cloud/dag-base/utils/cachescale"
+	"github.com/logan-smith-cloud/dag-base/utils/simplewlru"
+	"github.com/logan-smith-cloud/dag-base/vecengine"
 )
 
 // IndexCacheConfig - config for cache sizes of Engine

@@ -3,7 +3,7 @@ package itemsfetcher
 import (
 	"time"
 
-	"github.com/galaxy-digital/lachesis-base/utils/cachescale"
+	"github.com/logan-smith-cloud/dag-base/utils/cachescale"
 )
 
 type Config struct {

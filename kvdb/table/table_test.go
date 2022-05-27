@@ -10,10 +10,10 @@ import (
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/galaxy-digital/lachesis-base/kvdb"
-	"github.com/galaxy-digital/lachesis-base/kvdb/flushable"
-	"github.com/galaxy-digital/lachesis-base/kvdb/leveldb"
-	"github.com/galaxy-digital/lachesis-base/kvdb/memorydb"
+	"github.com/logan-smith-cloud/dag-base/kvdb"
+	"github.com/logan-smith-cloud/dag-base/kvdb/flushable"
+	"github.com/logan-smith-cloud/dag-base/kvdb/leveldb"
+	"github.com/logan-smith-cloud/dag-base/kvdb/memorydb"
 )
 
 func tempLevelDB(name string) *leveldb.Database {
