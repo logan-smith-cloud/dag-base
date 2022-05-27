@@ -1,4 +1,4 @@
-module github.com/galaxy-digital/lachesis-base
+module github.com/logan-smith-cloud/dag-base
 
 go 1.14
 
